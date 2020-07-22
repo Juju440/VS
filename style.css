@@ -1,0 +1,31 @@
+.cadre_entiers {
+    border: 2px solid green;
+    border-width: 5px;
+    border-color: green;
+    margin: auto;
+}
+
+.taille {
+    width: 900px;
+    height: 600px; 
+}
+
+.image_gauche {
+    float: left;
+}
+
+.image_centre {
+    float: left;
+
+}
+
+.image_droite {
+    float: left;
+
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+

@@ -1,8 +1,18 @@
+body {
+    background-color: #318ce7
+
+}
+
 .cadre_entiers {
     border: 2px solid green;
-    border-width: 5px;
-    border-color: green;
+    border-width: 10px;
+    border-color: white;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255,192,203);
+
 }
 
 .taille {
@@ -11,21 +21,33 @@
 }
 
 .image_gauche {
-    float: left;
+    margin-left: 50px;    
 }
 
-.image_centre {
-    float: left;
+.image_1 {
+    border: 5px solid white;
+}
 
+.image_2 {
+    border: 5px solid white;
 }
 
 .image_droite {
-    float: left;
-
+    margin-right: 50px;
 }
 
 img {
     width: 200px;
     height: 300px;
+}
+
+p {
+    text-align: center;
+    border: 5px solid white;
+    background-color: #318ce7;;
+}
+
+#img1:hover, #img3:hover {
+    opacity: 0.8;
 }
 
